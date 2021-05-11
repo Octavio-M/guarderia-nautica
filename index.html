@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/custom.css" />
+        <script src="https://kit.fontawesome.com/178dd382d2.js" crossorigin="anonymous"></script>
+        <title>Guardería Náutica</title>
+    </head>
+    <body>
+
+        <!-- HEADER -->
+        <header class="vh-100">
+            <div class="container d-flex flex-column h-100 py-3 justify-content-center align-items-center text-center text-white">
+                <img class="mb-2" src="img/logo.png">
+                <h1 class="sombra_textos">Guardería Náutica</h1>
+                <p class="fs-4 sombra_textos">La guardería modelo de la zona</p>                
+                <p class="fs-5 m-5">
+                    <span class="badge rounded-pill text-dark" style="font-weight: 500; background: #a9c7ff;"><i class="fas fa-shield-alt"></i> Seguridad 24 horas</span> 
+                    <span class="badge rounded-pill text-dark" style="font-weight: 500; background: #a9c7ff;"><i class="fas fa-anchor"></i> Bajada náutica exclusiva</span>
+                    <span class="badge rounded-pill text-dark" style="font-weight: 500; background: #a9c7ff;"><i class="fas fa-wrench"></i> Servicio técnico mecánico</span>
+                    <span class="badge rounded-pill text-dark" style="font-weight: 500; background: #a9c7ff;"><i class="fas fa-car"></i> Estacionamiento exclusivo</span>
+                </p>
+                <p>
+                    <a href="#nosotros"><i class="fas fa-angle-down mt-5"></i></a>
+                </p>         
+            </div>
+        </header>
+
+    <!-- NAV BAR - DESHABILITADA
+       <nav class="navbar navbar-expand-lg navbar-dark nav__bg" >
+        <div class="container-fluid">
+            <a class="navbar-brand d-inline-block align-text-center" href="#"><img src="img/logo.png" class="d-none d-md-inline-block ">Guardería Náutica</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Ver menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link sombras_textos active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-item nav-link sombras_textos" href="#">Cabañas</a>
+                    <a class="nav-item nav-link sombras_textos" href="#">Accesorios</a>
+                    <a class="nav-item nav-link sombras_textos" href="#">Motores y embarcaciones</a>
+                    <a class="nav-item nav-link sombras_textos" href="#contacto">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav> 
+    FIN NAVBAR -->
+
+        <!-- NOSOTROS -->
+        <section class="info mt-3 justify-content-center align-items-center text-center" id="nosotros">
+            <div class="container">
+                <h2 class="mb-3">SOBRE NOSOTROS</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptates, repellendus, quod id repellat eos illo, aliquid dolores aliquam quidem a error delectus nulla! Obcaecati natus at qui iste quia?</p>
+                <div id="carouselGuarderia" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselGuarderia" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselGuarderia" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselGuarderia" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="img/slider-1.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="img/slider-2.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="img/slider-3.jpg" class="d-block w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="mt-4" style="border-top: 3px solid rgb(50, 173, 255)">      
+
+        <!-- SERVICIOS -->
+        <section class="info mt-3 justify-content-center align-items-center text-center" id="nosotros">
+            <div class="container">
+                <h2 class="mb-3">NUESTROS SERVICIOS</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptates, repellendus, 
+                    quod id repellat eos illo, aliquid dolores aliquam quidem a error delectus nulla! 
+                    Obcaecati natus at qui iste quia?</p>
+            </div>
+        </section>
+
+        <hr class="mt-4" style="border-top: 3px solid rgb(50, 173, 255)">    
+
+        <!-- MÁS INFO -->
+        <section class="info my-2 justify-content-center align-items-center text-center">
+            <div class="container">
+                <h2 class="mb-3">DESCUBRÍ MÁS</h2>
+                <div class="row">
+                    <div class="col-sm mb-2">    <!-- COLUMNA CABAÑAS -->
+                        <div class="card h-100">
+                            <img src="/img/cab1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Nuestras cabañas</h3>
+                                <p class="card-text text-dark p-1">Contamos con exclusivas cabañas totalmente equipadas para 2, 3, 4 y 6 personas. Con parrillas individuales,
+                                    pileta con solarium, servicio de blanqueria, Wi-Fi, aire acondicionado, DirecTV y mucho más! <br>
+                                    Consultanos por paquete semanal.</p>
+                            </div>
+                            <div class="card-footer"><a class="boton" data-bs-toggle="modal" data-bs-target="#fsModal1">Saber más</a></div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm mb-2">    <!-- COLUMNA ACCESORIOS -->
+                        <div class="card h-100">
+                            <img src="/img/traje1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Accesorios e indumentaria</h3>
+                                <p class="card-text text-dark p-1">Trabajamos toda la linea Thermoskin, Aquafloat y Nautilon.<br> 
+                                    Trajes de neoprene, remeras de lycra y neoprene, 
+                                    botas cortas y de surf, tablas de wakeboard y mucho más! <br>
+                                    Además te ofrecemos una amplia gama de accesorios náuticos, elementos de seguridad, 
+                                    ecosondas y radios, y una amplia gama de repuestos de todas las marcas.
+                                </p>
+                            </div>
+                            <div class="card-footer"><a class="boton" data-bs-toggle="modal" data-bs-target="#fsModal2">Saber más</a></div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm mb-2">    <!-- COLUMNA EMBARCACIONES -->
+                        <div class="card h-100">
+                            <img src="/img/motor1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Motores y embarcaciones</h3>
+                                <p class="card-text text-dark p-1">Somos agente oficial Evinrude y Yamaha y contamos con toda la línea
+                                    de motores Hidea. <br>
+                                    Consultanos por cotización y stock. <br>
+                                    ¡El mejor precio encontralo acá!</p>
+                            </div>
+                            <div class="card-footer"><a class="boton" data-bs-toggle="modal" data-bs-target="#fsModal3">Saber más</a></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="nav__bg py-3 text-white" id="contacto">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12 mb-3">
+                        <h2>Envianos un email</h2>
+                        <form onsubmit="enviarEmail(); return false;">
+                            <div class="mb-2">
+                                <label for="nombreContacto" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombreContacto">
+                              </div>
+                            <div class="mb-2">
+                              <label for="mailContacto" class="form-label">Tu email</label>
+                              <input type="email" class="form-control" id="emailContacto">
+                            </div>
+                            <div class="mb-2">
+                                <label for="textoEmail" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="textoEmail" rows="3"></textarea>
+                              </div>
+                            <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                        <h2>Ubicación</h2>
+                        <p>Calle Nº100 - Barrio - Ciudad, Provincia, País</p>
+                        <p><i class="fas fa-phone-square-alt" style="font-size: 1.5em"></i><a href="tel:#5490000000" style="text-decoration: none; color: white;"> 0000 123456</a></p>
+                        <p><i class="fas fa-envelope" style="font-size: 1.4em"></i><a href="mailto:empresa@email.com" style="text-decoration: none; color: white;"> empresa@email.com</a></p>
+                        <p><a href="https://facebook.com"><i class="fab fa-facebook-square" style="font-size: 2em; color: #98C6F0; margin-right: 2px;"> </i></a> <a href="https://instagram.com"><i class="fab fa-instagram" style="font-size: 2em; color:#DF78AC;"></i></a></p>
+                    </div>
+                </div>
+            </div>
+            <footer class="text-center">
+                <div class="container">
+                    <p>&copy; 2021 Guardería Náutica</p>
+                </div>
+            </footer>
+        </section>
+
+
+        <!-- MODAL VARIABLE CON JS - DESHABILITADO
+        <div class="modal" id="fsModal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content text-center">
+                <div class="modal-header">
+                    <div class="col-1"></div>
+                    <h3 class="modal-title col-10" id="tituloModal">Título</h3>
+                    <button type="button" class="btn-close col-1" data-bs-dismiss="modal" aria-label="Cerrar" onClick="limpiarModal()"></button>
+                </div>
+                <div class="modal-body" id="cuerpoModal">
+                  
+                </div>
+              </div>
+            </div>
+        </div> 1 --> 
+
+        <div class="modal" id="fsModal1" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content text-center">
+                <div class="modal-header">
+                    <div class="col-1"></div>
+                    <h3 class="modal-title col-10" id="tituloModal1">Título Modal 1</h3>
+                    <button type="button" class="btn-close col-1" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body" id="cuerpoModal1">
+                    <p>Cuerpo Modal 1</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="modal" id="fsModal2" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content text-center">
+                <div class="modal-header">
+                    <div class="col-1"></div>
+                    <h3 class="modal-title col-10" id="tituloModal2">Título Modal 2</h3>
+                    <button type="button" class="btn-close col-1" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body" id="cuerpoModal2">
+                    <p>Cuerpo Modal 2</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="modal" id="fsModal3" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content text-center">
+                <div class="modal-header">
+                    <div class="col-1"></div>
+                    <h3 class="modal-title col-10" id="tituloModal3">Título Modal 3</h3>
+                    <button type="button" class="btn-close col-1" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body" id="cuerpoModal3">
+                    <p>Cuerpo Modal 3</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
